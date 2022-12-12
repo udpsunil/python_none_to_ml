@@ -25,3 +25,8 @@ Tests:
 # with value True
 # type: bool
 result = True
+
+
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod()

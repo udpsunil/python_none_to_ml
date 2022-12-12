@@ -25,3 +25,7 @@ Tests:
 # With value None
 # type: None
 result = None
+
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod()

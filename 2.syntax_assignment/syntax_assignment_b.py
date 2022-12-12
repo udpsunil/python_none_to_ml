@@ -22,3 +22,7 @@ Tests:
 # with value 1.2
 # type: float
 result = 1.2
+
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod()
